@@ -1,0 +1,79 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: darkmagenta;
+    width:100%;
+    height: 100%;
+    margin:0 auto;
+}
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+header {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #c00076;
+    color:#eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:10%;
+    width:100%;
+}
+nav {
+    height: 70%;
+    background-color:#eeeeee;
+    width:10%;
+    float:right;
+    padding-bottom: 66%;
+}
+
+aside {
+    line-height:30px;
+    background-color:#eeeeee;
+    float:left;
+    height: 70%;
+    width: 7%;
+    padding-bottom: 56%;
+    
+
+}
+aside div img{
+    height: 3%;
+    width: 4%;
+   
+}
+main {
+    background-color:#c00076;
+    float:left;
+    padding: 1%;
+    width: 81%;
+    height: 30%;
+}
+section {
+    background-color:#be5a98;
+    float:left;
+    padding: 1%;
+    height:1%;
+    width:81%;
+
+}
+article {
+    background-color:#ffffff;
+    height:1%;
+    width:100%;
+    
+}
+
+footer {
+    background-color:#c00076;
+    color:white;
+    clear: both;
+    text-align:center;
+    height:30%;
+    width:100%;
+}
